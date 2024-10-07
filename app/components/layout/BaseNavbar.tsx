@@ -27,7 +27,7 @@ const BaseNavbar = () => {
             <div className="flex items-center gap-3">
               <Image
                 src={Logo}
-                alt="Invoify Logo"
+                alt="BillCraft Logo"
                 width={40}
                 height={20}
                 loading="eager"

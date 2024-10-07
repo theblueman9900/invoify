@@ -1,12 +1,12 @@
-# Invoify
+# BillCraft
 
-Invoify is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
+BillCraft is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
 
-![Invoify Website image](/public/assets/img/invoify-web-app.png)
+![BillCraft Website image](/public/assets/img/BillCraft-web-app.png)
 
 ## Table of Contents
 
-- [Invoify](#invoify)
+- [BillCraft](#BillCraft)
   - [Table of Contents](#table-of-contents)
   - [Technologies](#technologies)
     - [Core Technologies](#core-technologies)
@@ -53,13 +53,13 @@ Invoify is a web-based invoice generator application built with Next.js 13, Type
 ## Demo
 
 > [!NOTE]
-> Please be advised that there are currently issues when using this application in the Mozilla Firefox browser. For more information, refer to [Issue #11](https://github.com/aliabb01/invoify/issues/11).
+> Please be advised that there are currently issues when using this application in the Mozilla Firefox browser. For more information, refer to [Issue #11](https://github.com/aliabb01/BillCraft/issues/11).
 
-Visit the [live demo](https://invoify.vercel.app) to see Invoify in action.
+Visit the [live demo](https://BillCraft.vercel.app) to see BillCraft in action.
 
 ## Getting Started
 
-Follow these instructions to get Invoify up and running on your local machine.
+Follow these instructions to get BillCraft up and running on your local machine.
 
 ### Prerequisites
 
@@ -70,11 +70,11 @@ Follow these instructions to get Invoify up and running on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/aliabb01/invoify.git
-   cd invoify
+   git clone https://github.com/aliabb01/BillCraft.git
+   cd BillCraft
    ```
 2. Install dependencies
-   
+
    ```bash
    npm install
    ```

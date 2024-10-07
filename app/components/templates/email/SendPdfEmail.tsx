@@ -30,9 +30,9 @@ export default function SendPdfEmail({ invoiceNumber }: SendPdfEmailProps) {
         <Body className="bg-gray-100">
           <Container>
             <Section className="bg-white border-black-950 my-10 px-10 py-4 rounded-md">
-              <Img src={logo} alt="Invoify Logo" width={200} height={120} />
+              <Img src={logo} alt="BillCraft Logo" width={200} height={120} />
               <Heading className="leading-tight">
-                Thanks for using Invoify!
+                Thanks for using BillCraft!
               </Heading>
 
               <Text>
@@ -46,7 +46,7 @@ export default function SendPdfEmail({ invoiceNumber }: SendPdfEmailProps) {
               <Text>
                 Best Regards,
                 <br />
-                Invoify Team
+                BillCraft Team
               </Text>
             </Section>
           </Container>

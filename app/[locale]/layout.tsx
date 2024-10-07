@@ -11,7 +11,7 @@ import {
 } from "@/lib/fonts";
 
 // Favicon
-import Favicon from "@/public/assets/favicon/favicon.ico";
+import Favicon from "@/public/assets/img/TheBlueMan-Logo-Title-05.png";
 
 // Vercel Analytics
 import { Analytics } from "@vercel/analytics/react";
@@ -35,9 +35,9 @@ import { JSONLD, ROOTKEYWORDS } from "@/lib/seo";
 import { BASE_URL, GOOGLE_SC_VERIFICATION, LOCALES } from "@/lib/variables";
 
 export const metadata: Metadata = {
-    title: "Invoify | Free Invoice Generator",
+    title: "BillCraft | The Blue Man",
     description:
-        "Create invoices effortlessly with Invoify, the free invoice generator. Try it now!",
+        "Create invoices effortlessly with BillCraft, the free invoice generator. Try it now!",
     icons: [{ rel: "icon", url: Favicon.src }],
     keywords: ROOTKEYWORDS,
     viewport: "width=device-width, initial-scale=1",
@@ -49,8 +49,8 @@ export const metadata: Metadata = {
         canonical: BASE_URL,
     },
     authors: {
-        name: "Ali Abbasov",
-        url: "https://aliabb.vercel.app",
+        name: "The Blue Man",
+        url: "https://theblueman.in",
     },
     verification: {
         google: GOOGLE_SC_VERIFICATION,
