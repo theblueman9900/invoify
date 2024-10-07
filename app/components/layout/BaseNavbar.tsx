@@ -32,13 +32,12 @@ const BaseNavbar = () => {
                 height={20}
                 loading="eager"
               />
-              <Label>The Blue Man</Label>
+              <CardTitle className="flex items-center gap-3">
+                <span className="uppercase">Bill Craft</span>
+              </CardTitle>
             </div>
           </Link>
           {/* ? DEV Only */}
-          <CardTitle className="flex items-center gap-3">
-            <span className="uppercase">Invoice Builder</span>
-          </CardTitle>
           {/* {devEnv && <DevDebug />} */}
           <div className="flex gap-3">
             <ThemeSwitcher />
