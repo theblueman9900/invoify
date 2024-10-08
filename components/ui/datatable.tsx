@@ -96,7 +96,7 @@ export default function CustomDataTable({ data }: { data: Demo.SalesOrder[] }) {
         <tr>
           <th>
             <span className="flex items-center">
-              Order Code
+              Code
               <svg
                 className="w-4 h-4 ms-1"
                 aria-hidden="true"
@@ -118,7 +118,7 @@ export default function CustomDataTable({ data }: { data: Demo.SalesOrder[] }) {
           </th>
           <th>
             <span className="flex items-center">
-              Customer Name
+              Name
               <svg
                 className="w-4 h-4 ms-1"
                 aria-hidden="true"
@@ -140,7 +140,7 @@ export default function CustomDataTable({ data }: { data: Demo.SalesOrder[] }) {
           </th>
           <th>
             <span className="flex items-center">
-              Customer Contact
+              Phone
               <svg
                 className="w-4 h-4 ms-1"
                 aria-hidden="true"
@@ -162,7 +162,7 @@ export default function CustomDataTable({ data }: { data: Demo.SalesOrder[] }) {
           </th>
           <th>
             <span className="flex items-center">
-              Order Status
+              Email
               <svg
                 className="w-4 h-4 ms-1"
                 aria-hidden="true"
@@ -184,7 +184,29 @@ export default function CustomDataTable({ data }: { data: Demo.SalesOrder[] }) {
           </th>
           <th>
             <span className="flex items-center">
-              Order Items
+              Status
+              <svg
+                className="w-4 h-4 ms-1"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m8 15 4 4 4-4m0-6-4-4-4 4"
+                />
+              </svg>
+            </span>
+          </th>
+          <th>
+            <span className="flex items-center">
+              Items
               <svg
                 className="w-4 h-4 ms-1"
                 aria-hidden="true"
@@ -237,6 +259,7 @@ export default function CustomDataTable({ data }: { data: Demo.SalesOrder[] }) {
             <td>{order.orderCode}</td>
             <td>{order.customer.name}</td>
             <td>{order.customer.contactNumber}</td>
+            <td>{order.customer.email}</td>
             <td>{order.orderStatus}</td>
             <td>
               {order.orderItems.map((item: any, index: number) => (
